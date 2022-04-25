@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Tapestry&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(40, 99, 66, 0.699) url("../img/birthday.jpg") no-repeat fixed center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    color: aliceblue;
+    font-family: 'poppins', 'sans-serif';
+}
+
+h1, .name {
+    font-size: 4rem;
+    font-family: 'Tapestry';
+    margin-top: 10rem;
+}
+
+.info {
+    font-family: 'Montserrat', 'poppins';
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    padding: 0.5rem 0;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin:0 2rem 1rem;
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 700;
+}
+
+.timer {
+    text-align: center;
+}
+
+.timer span {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+
+
